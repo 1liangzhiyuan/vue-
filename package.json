@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "client": "webpack --config ./config/webpack.client.js",
+        "server": "webpack --config ./config/webpack.server.js",
+        "start": "npm run client && npm run server",
+        "start:client": "webpack -w --config ./config/webpack.client.js",
+        "start:server": "webpack -w --config ./config/webpack.server.js"
+    }
+}
